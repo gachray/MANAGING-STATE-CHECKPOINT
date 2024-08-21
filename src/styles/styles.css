@@ -1,0 +1,124 @@
+/* Apply the Roboto font to the entire application */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto as the primary font */
+    color: #333; /* Optional: Set a default text color */
+    line-height: 1.6; /* Improve readability with line-height */
+}
+
+/* Center the h1 element */
+h1 {
+    text-align: center; /* Center text horizontally */
+    color: #333; /* Optional: Change color for better visibility */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Style for the app background */
+.app {
+    background-color: #f5f5f5; /* Light grey background */
+    min-height: 100vh; /* Ensure the background covers the full height */
+    padding: 20px; /* Add some padding around the content */
+}
+
+/* Style for form elements */
+form {
+    max-width: 600px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding around the form */
+    background-color: #fff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+input[type="text"], textarea, input[type="number"], input[type="date"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 10px; /* Space between inputs */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+button {
+    padding: 10px 15px; /* Padding inside buttons */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    background-color: teal; /* Background color for buttons */
+    color: white; /* Text color for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+button:hover {
+    background-color: orange; /* Orange background color on hover */
+    color: #fff; /* Ensure text remains white on hover */
+}
+
+/* Style for task items */
+.task-item {
+    background-color: #fff; /* White background for task items */
+    padding: 15px; /* Padding inside task items */
+    margin-bottom: 10px; /* Space between task items */
+    border-radius: 4px; /* Rounded corners for task items */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.task-item.completed {
+    text-decoration: line-through; /* Strikethrough for completed tasks */
+    background-color: #e0e0e0; /* Light grey background for completed tasks */
+}
+
+/* Style for controls */
+.controls {
+    margin-bottom: 20px; /* Space below the controls */
+    display: flex; /* Flexbox for controls */
+    justify-content: center; /* Center controls horizontally */
+}
+
+.controls label {
+    margin-right: 15px; /* Space between filters */
+}
+
+
+
+/* Style for task items */
+.task-item {
+    background-color: #fff; /* White background for task items */
+    padding: 15px; /* Padding inside task items */
+    margin-bottom: 10px; /* Space between task items */
+    border-radius: 4px; /* Rounded corners for task items */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex; /* Flexbox to align items */
+    justify-content: space-between; /* Space between details and actions */
+    align-items: center; /* Center align items vertically */
+}
+
+.task-details {
+    flex: 1; /* Allow details to take up available space */
+}
+
+.task-actions {
+    display: flex; /* Flexbox for buttons */
+    gap: 10px; /* Space between buttons */
+}
+
+.task-actions button {
+    padding: 8px 12px; /* Padding inside buttons */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    background-color: teal; /* Background color for buttons */
+    color: white; /* Text color for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.task-actions button:hover {
+    background-color: orange; /* Orange background color on hover */
+    color: #fff; /* Ensure text remains white on hover */
+}
+
+
+/* Style for error message */
+.error {
+    color: red; /* Red color for error messages */
+    font-size: 0.875rem; /* Smaller font size */
+    margin-top: 10px; /* Space above the error message */
+}
